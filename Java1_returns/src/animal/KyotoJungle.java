@@ -24,5 +24,9 @@ public class KyotoJungle {
 			System.out.println(animals[i].getClass() + ", sex:" + animals[i].sex);
 			
 		}
+		
+		Animal animal = new Sheep("male");
+		((Sheep)animal).run();
+		((Sheep)animal).move();
 	}	
 }

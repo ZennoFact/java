@@ -6,8 +6,12 @@ public class Sheep extends Animal {
 		super(sex);
 	}
 	
-	public void run(int addX, int addY) {
-		this.x += addX * 3;
-		this.y += addY * 3;
+	@Override
+	public void move() {
+		System.out.println("羊が歩く");
+	}
+
+	public void run() {
+		System.out.println("羊が走る");
 	}
 }

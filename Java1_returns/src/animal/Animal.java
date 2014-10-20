@@ -1,7 +1,5 @@
 package animal;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction;
-
 public class Animal {
 	String sex;
 	int age;
@@ -13,8 +11,7 @@ public class Animal {
 		this.age = 0;
 	}
 	
-	public void move (int addX, int addY) {
-		this.x += addX;
-		this.y += addY;
+	public void move () {
+		System.out.println("動物が動く");
 	}
 }
