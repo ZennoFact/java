@@ -17,13 +17,13 @@ public class Test {
 		line2.printDistance();
 		line3.printDistance();
 		
-		Triangle tri1;
-		if ( Triangle.isMakeTriangle(point1, point2, point3) ) {
-			tri1 = new Triangle(point1, point2, point3);
-			tri1.printArea();
-		} else {
-			System.out.println("その3点では三角形は作成できません");
-		}
+//		Triangle tri1;
+//		if ( Triangle.isMakeTriangle(point1, point2, point3) ) {
+//			tri1 = new Triangle(point1, point2, point3);
+//			tri1.printArea();
+//		} else {
+//			System.out.println("その3点では三角形は作成できません");
+//		}
 		
 	}
 }
